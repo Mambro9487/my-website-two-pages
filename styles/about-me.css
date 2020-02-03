@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
+    max-width: 1400;
+}
+.header{
+    color: white;
+    height: 50vh;
+    background-image: linear-gradient(to right bottom,#15fd3070,#15eafd4b),url(../images/ferrari-f1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .5;
+}
+.name-container{
+    font-size: 40pt;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    float: left;
+    padding:10,0 ;
+}
+nav{
+    float: right;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: auto;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 35px;
+    margin-right: 50px;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+nav a:hover{
+    color: cyan;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-family:  'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding: 5px;
+}
+
+.images-container{
+    margin: 30px;
+    padding: 20px;
+    position: absolute;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: lightgreen;
+}
+.content{
+    font-size: 35px;
+    font-weight: 200;
+    text-align: left;
+    width: 50%;
+    float: right;
+    padding: 20px;
+    margin: 35px;
+    position: relative;
+    border-style: solid;
+    border-width: 6px;
+    border-color: black;
+    word-spacing: initial;
+    
+}
+
+hr{
+    padding: 10px;
+    color: lavender;
+}
+
